@@ -20,17 +20,23 @@ p {
 	padding-top: 50px;
 	padding-right: 30px;
 	padding-bottom: 10px;
-	margin: 10px 5px 5px 30px;
+	margin: 10px 5px 5px 5px;
 	text-align: justify;
 	line-height: 1.5;
 	overflow: hidden;
 }
-
+.wrapper{
+max-width:1300px;
+margin:0px auto;
+justify-content: center;
+align-items: center;
+}
 .row {
-	width: 100%;
-	padding: 5px;
-	position: absolute;
-	margin: 0px;
+    max-width: 1200px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .box {
